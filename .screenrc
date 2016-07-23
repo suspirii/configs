@@ -1,0 +1,21 @@
+vbell off
+autodetach on
+startup_message off
+
+term screen-256color
+
+defscrollback 1000
+bind k
+bind ^k
+bind .
+bind ^\
+bind \\
+bind ^h
+bind h
+bind 'K' kill
+bind 'I' login on
+bind 'O' login off
+bind '}' history
+
+bind ^] paste [.]
+hardstatus alwayslastline "%{= k}%{G}%-w[%n %t]%+w%-=%{G}%c "
