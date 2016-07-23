@@ -1,0 +1,3 @@
+OPTIONS=color, autodig, pettype:dog, dogname:Flower, hilite_pet, gender:male, race:human, lit_corridor, number_pad:1
+
+NAME=Adam
