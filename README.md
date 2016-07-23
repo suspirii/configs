@@ -1,1 +1,1 @@
-Various configs that I use backed up here in case of fire.
+Various configs, scripts, and stuff that I use backed up here in case of fire.
