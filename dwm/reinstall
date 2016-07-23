@@ -1,0 +1,9 @@
+#!/usr/bin/sh
+
+#FRIENDLY ALL CAPS REMINDER TO PUT PATCHES IN src/dwm-6.1 AND THEN RUN THE FOLLOWING COMMAND IN THAT DIRECTORY FOR EACH ONE TO APPLY THEM
+#patch -p1 < PATCHNAME.diff
+
+cp config.h src/dwm-6.1/config.h
+
+makepkg -g >> PKGBUILD
+makepkg -efi --skipinteg
