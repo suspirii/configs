@@ -8,6 +8,7 @@ urxvt*matcher.button:   1
 urxvt*urlLauncher:      /usr/bin/firefox
 
 URxvt.background:  #010101
+URxvt.cursorColor: #FCFCFC
 
 ! FAMICOM
 URxvt.foreground:  #F8D8F8
