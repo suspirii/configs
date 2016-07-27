@@ -78,6 +78,7 @@ alias ht='htop'
 alias irc='irssi'
 alias mp='mplayer'
 alias vi='vim'
+alias viwrite='vim -u .vimrc-write'
 
 colortest () {
 T='fvkk'
